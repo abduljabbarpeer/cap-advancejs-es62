@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+#root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+.product-card {
+  border: 1px solid darkgray;
+}
+.product-card > img {
+  width: 200px;
+  height: 200px;
+}
+.navbar {
+  padding: 10px;
+  margin: 0;
+  background-color: bisque;
+  color: darkorchid;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: darkslategrey;
+}
